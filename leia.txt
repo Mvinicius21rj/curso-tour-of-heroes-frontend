@@ -1,0 +1,9 @@
+## adicionando o modulo dentro da pasta app com --flat, e adcionando o modulo
+## no arquivo app-modulo com --modulo=app 
+ng g module app-routing --flat --module=app
+
+
+##angular flex layout para aplicar diretivar de css direto no html
+npm i -s @angular/flex-layout @angular/cdk
+
+
