@@ -5,6 +5,7 @@ import { HeroDatailComponent } from './components/hero-datail/hero-datail.compon
 import { MaterialModule } from '../material/material.module';
 import { FormsModule } from '@angular/forms';
 import { HeroesRoutingModule } from './heroes-routing.module';
+import { FlexLayoutModule } from '@angular/flex-layout';
 
 
 
@@ -12,7 +13,7 @@ import { HeroesRoutingModule } from './heroes-routing.module';
 @NgModule({
   declarations: [HeroesComponent, HeroDatailComponent],
   imports: [
-    CommonModule, FormsModule, MaterialModule, HeroesRoutingModule
+    CommonModule, FlexLayoutModule, FormsModule, MaterialModule, HeroesRoutingModule
   ]
 })
 export class HeroesModule { }
