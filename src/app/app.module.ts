@@ -5,8 +5,8 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppRoutingModule } from './app-routing.module';
 import { CoreModule } from './core/core.module';
-import { DashboardModule } from './dashboard/dashboard.module';
-import { HeroesModule } from './heroes/heroes.module';
+import { HttpClientModule } from '@angular/common/http';
+
 
 // Configuração do modulo
 
@@ -19,6 +19,7 @@ import { HeroesModule } from './heroes/heroes.module';
     BrowserModule,
     FormsModule,
     BrowserAnimationsModule,
+    HttpClientModule,
     
     // app
     AppRoutingModule,

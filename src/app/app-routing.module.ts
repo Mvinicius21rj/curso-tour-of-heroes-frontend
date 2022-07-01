@@ -20,7 +20,6 @@ loadChildren: () =>
 {
   path: '**',
   component: PageNotFoundComponent,
-
 }
 
 ];
