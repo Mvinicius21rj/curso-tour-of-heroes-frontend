@@ -6,4 +6,4 @@ ng g module app-routing --flat --module=app
 ##angular flex layout para aplicar diretivar de css direto no html
 npm i -s @angular/flex-layout @angular/cdk
 
-
+## json-server instalado, simulador de backend

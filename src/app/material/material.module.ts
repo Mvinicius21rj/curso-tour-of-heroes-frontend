@@ -8,6 +8,8 @@ import { MatExpansionModule } from '@angular/material/expansion'
 import { MatIconModule } from '@angular/material/icon'
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatButtonModule } from '@angular/material/button';
+import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';
+
 
 const MODULES = [
   MatButtonModule,
@@ -15,6 +17,7 @@ const MODULES = [
   MatCardModule,
   MatInputModule,
   MatTableModule,
+  MatProgressSpinnerModule,
   MatTooltipModule,
   MatExpansionModule,
   MatIconModule,
